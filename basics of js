@@ -1,0 +1,110 @@
+   
+    //___-ways toprint on main page____
+
+    alert("me");
+    document.write("this is JS");
+
+    //___ways to print on console___-
+
+    console.log("hello world ",4+6," another log.");    
+    console.warn("this is warning");
+    console.error("this is error");
+
+    //_____primitive data types_____
+    //1.numbers
+
+    var n1=34;
+    var n2=67;
+    console.log(n1+n2);
+    document.write("\n",n1+n2);
+
+    //2.string 
+
+    var str1="good";
+    var str2="morning";
+
+    //3.boolean
+
+   var a=true;
+   var b=false;
+   console.log(a,b);
+  
+   //4.undefined 
+  
+   var c;
+   console.log(c);
+ 
+   //5.null 
+
+    var ab=null;
+    console.log(ab);
+
+   //_____reference data type_____
+  
+   
+   //1.objects
+    
+    var marks={
+       aayushi:23,
+       janshi:32,
+       krutika:33
+      } 
+
+   //2.array
+  
+   var arr=[1,2,3,4,5,6,7];
+   console.log(arr);
+   console.log(arr[0]);
+   console.log(arr[4]);
+
+   var arr2=['good','morning','friends'];
+   console.log(arr2);
+   console.log(arr2[2]);
+
+   //___loop____ 
+  
+    for(var i=0;i<arr.length;i++)
+    {
+      if(i==5)
+        { break;}
+      console.log(arr[i]);
+    }
+
+    let j=0;
+
+    while(j<arr2.length)
+    {
+      if(j==0)
+      { continue; }
+      console.log(arr2[j]);
+      j++;
+    }
+ 
+    let k=0;
+    do
+    {
+      console.log(arr2[k]);
+      k++;
+    } 
+    while(k<arr2.length)
+    
+   //____function____
+
+   function avg(x,y)
+    {
+     return (x+y)/2;
+    }
+   console.log(avg(n1,n2));
+
+   var age = 45;
+
+   //___if-else_____
+
+   if(age > 18)
+   {
+    console.log("you are an adult");
+   }
+   else
+   {
+    console.log("you are a kid");
+   }
