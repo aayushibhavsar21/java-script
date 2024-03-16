@@ -1,5 +1,5 @@
    
-    //___-ways toprint on main page____
+    //___-ways to print on main page____
 
     alert("me");
     document.write("this is JS");
